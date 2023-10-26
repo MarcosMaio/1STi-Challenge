@@ -18,7 +18,7 @@ Mobile responsivo:
 
 ![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile2.png)
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - React
 - NextJS
