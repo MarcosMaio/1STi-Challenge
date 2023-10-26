@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  background: rgb(255, 182, 0);
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgb(255, 129, 0),
+    rgb(255, 182, 0)
+  );
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgb(255, 129, 0), rgb(255, 182, 0));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.open-sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.open-sans-semibold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+.mukta-light {
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 300;
+}
+
+.mukta {
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 700;
+}
+
+.mukta-bold {
+  font-family: "Mukta Vaani", sans-serif;
+  font-weight: 800;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.arial-light {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.arial-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.text-s {
+  font-size: 0.7rem;
+  line-height: 0.75rem;
+}
+
+.text-orange {
+  color: rgb(255, 128, 2);
+}
+
+.text-dark-gray-700 {
+  color: #545454;
+}
+
+.text-dark-gray-900 {
+  color: #232221;
+}
+
+.border-orange {
+  border-color: rgb(255, 128, 2);
+}
+
+.slide-in {
+  animation: slideAnimation 1s ease forwards;
+}
+
+.slide-out {
+  animation: slideAnimationOut 1s ease forwards;
+  transition: 0.2s;
+}
+
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideAnimationOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+}
