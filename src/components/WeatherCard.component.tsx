@@ -33,7 +33,7 @@ export default function WeatherCard() {
   return (
     <section>
       <div
-        className={`bg-white p-7 relative w-100 opacity-0 ${
+        className={`bg-white p-7 relative w-auto min-w-[400px] flex justify-center flex-col opacity-0  ${
           wheatherCardAnimation ? "slide-in" : "slide-out"
         }`}
       >
